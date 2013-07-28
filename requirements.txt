@@ -1,0 +1,5 @@
+Flask
+Flask-SQlalchemy
+Flask-WTF
+MySQL-python==1.2.4
+Bootstrap
