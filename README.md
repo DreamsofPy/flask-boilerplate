@@ -57,7 +57,7 @@ Quick Start
 
 1. Clone the repo
 
-        $ git clone git@github.com:mjhea0/flask-boilerplate.git
+        $ git clone git@github.com:DreamsofPy/flask-boilerplate.git
         $ cd flask-boilerplate
 
 2. Initialize and activate a virtualenv:
