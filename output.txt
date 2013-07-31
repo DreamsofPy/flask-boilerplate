@@ -1,0 +1,145 @@
+Downloading/unpacking Flask==0.10.1 (from -r requirements.txt (line 1))
+  Using download cache from /Users/kat-drexel/.pip/cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2FF%2FFlask%2FFlask-0.10.1.tar.gz
+  Running setup.py egg_info for package Flask
+    
+    warning: no files found matching '*' under directory 'tests'
+    warning: no previously-included files matching '*.pyc' found under directory 'docs'
+    warning: no previously-included files matching '*.pyo' found under directory 'docs'
+    warning: no previously-included files matching '*.pyc' found under directory 'tests'
+    warning: no previously-included files matching '*.pyo' found under directory 'tests'
+    warning: no previously-included files matching '*.pyc' found under directory 'examples'
+    warning: no previously-included files matching '*.pyo' found under directory 'examples'
+    no previously-included directories found matching 'docs/_build'
+    no previously-included directories found matching 'docs/_themes/.git'
+Downloading/unpacking Flask-SQLAlchemy==1.0 (from -r requirements.txt (line 2))
+  Using download cache from /Users/kat-drexel/.pip/cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2FF%2FFlask-SQLAlchemy%2FFlask-SQLAlchemy-1.0.tar.gz
+  Running setup.py egg_info for package Flask-SQLAlchemy
+    
+    warning: no previously-included files matching '*.pyc' found under directory 'docs'
+    warning: no previously-included files matching '*.pyo' found under directory 'docs'
+    no previously-included directories found matching 'docs/_build'
+    no previously-included directories found matching 'docs/_themes/.git'
+Downloading/unpacking MySQL-python==1.2.4 (from -r requirements.txt (line 3))
+  Using download cache from /Users/kat-drexel/.pip/cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2FM%2FMySQL-python%2FMySQL-python-1.2.4.zip
+  Running setup.py egg_info for package MySQL-python
+    
+Downloading/unpacking Werkzeug>=0.7 (from Flask==0.10.1->-r requirements.txt (line 1))
+  Using download cache from /Users/kat-drexel/.pip/cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2FW%2FWerkzeug%2FWerkzeug-0.9.3.tar.gz
+  Running setup.py egg_info for package Werkzeug
+    
+    warning: no files found matching '*' under directory 'werkzeug/debug/templates'
+    warning: no files found matching '*' under directory 'tests'
+    warning: no previously-included files matching '*.pyc' found under directory 'docs'
+    warning: no previously-included files matching '*.pyo' found under directory 'docs'
+    warning: no previously-included files matching '*.pyc' found under directory 'tests'
+    warning: no previously-included files matching '*.pyo' found under directory 'tests'
+    warning: no previously-included files matching '*.pyc' found under directory 'examples'
+    warning: no previously-included files matching '*.pyo' found under directory 'examples'
+    no previously-included directories found matching 'docs/_build'
+Downloading/unpacking Jinja2>=2.4 (from Flask==0.10.1->-r requirements.txt (line 1))
+  Using download cache from /Users/kat-drexel/.pip/cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2FJ%2FJinja2%2FJinja2-2.7.tar.gz
+  Running setup.py egg_info for package Jinja2
+    
+    warning: no files found matching '*' under directory 'custom_fixers'
+    warning: no previously-included files matching '*' found under directory 'docs/_build'
+    warning: no previously-included files matching '*.pyc' found under directory 'jinja2'
+    warning: no previously-included files matching '*.pyc' found under directory 'docs'
+    warning: no previously-included files matching '*.pyo' found under directory 'jinja2'
+    warning: no previously-included files matching '*.pyo' found under directory 'docs'
+Downloading/unpacking itsdangerous>=0.21 (from Flask==0.10.1->-r requirements.txt (line 1))
+  Using download cache from /Users/kat-drexel/.pip/cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2Fi%2Fitsdangerous%2Fitsdangerous-0.22.tar.gz
+  Running setup.py egg_info for package itsdangerous
+    
+Requirement already satisfied (use --upgrade to upgrade): distribute in /Users/kat-drexel/.virtualenvs/test2/lib/python2.7/site-packages/distribute-0.6.34-py2.7.egg (from Flask-SQLAlchemy==1.0->-r requirements.txt (line 2))
+Downloading/unpacking SQLAlchemy (from Flask-SQLAlchemy==1.0->-r requirements.txt (line 2))
+  Using download cache from /Users/kat-drexel/.pip/cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2FS%2FSQLAlchemy%2FSQLAlchemy-0.8.2.tar.gz
+  Running setup.py egg_info for package SQLAlchemy
+    
+    warning: no files found matching '*.jpg' under directory 'doc'
+    no previously-included directories found matching 'doc/build/output'
+Downloading/unpacking markupsafe (from Jinja2>=2.4->Flask==0.10.1->-r requirements.txt (line 1))
+  Using download cache from /Users/kat-drexel/.pip/cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2FM%2FMarkupSafe%2FMarkupSafe-0.18.tar.gz
+  Running setup.py egg_info for package markupsafe
+    
+Installing collected packages: Flask, Flask-SQLAlchemy, MySQL-python, Werkzeug, Jinja2, itsdangerous, SQLAlchemy, markupsafe
+  Running setup.py install for Flask
+    
+    warning: no files found matching '*' under directory 'tests'
+    warning: no previously-included files matching '*.pyc' found under directory 'docs'
+    warning: no previously-included files matching '*.pyo' found under directory 'docs'
+    warning: no previously-included files matching '*.pyc' found under directory 'tests'
+    warning: no previously-included files matching '*.pyo' found under directory 'tests'
+    warning: no previously-included files matching '*.pyc' found under directory 'examples'
+    warning: no previously-included files matching '*.pyo' found under directory 'examples'
+    no previously-included directories found matching 'docs/_build'
+    no previously-included directories found matching 'docs/_themes/.git'
+  Running setup.py install for Flask-SQLAlchemy
+    
+    warning: no previously-included files matching '*.pyc' found under directory 'docs'
+    warning: no previously-included files matching '*.pyo' found under directory 'docs'
+    no previously-included directories found matching 'docs/_build'
+    no previously-included directories found matching 'docs/_themes/.git'
+  Running setup.py install for MySQL-python
+    building '_mysql' extension
+    cc -fno-strict-aliasing -fno-common -dynamic -I/usr/local/include -I/usr/local/opt/sqlite/include -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -Dversion_info=(1,2,4,'final',1) -D__version__=1.2.4 -I/usr/local/Cellar/mysql/5.6.10/include -I/usr/local/Cellar/python/2.7.4/Frameworks/Python.framework/Versions/2.7/include/python2.7 -c _mysql.c -o build/temp.macosx-10.8-x86_64-2.7/_mysql.o -Os -g -fno-strict-aliasing
+    In file included from _mysql.c:44:
+    /usr/local/Cellar/mysql/5.6.10/include/my_config.h:348:11: warning: 'SIZEOF_SIZE_T' macro redefined
+      #define SIZEOF_SIZE_T  SIZEOF_LONG
+              ^
+    /usr/local/Cellar/python/2.7.4/Frameworks/Python.framework/Versions/2.7/include/python2.7/pymacconfig.h:43:17: note: previous definition is here
+    #        define SIZEOF_SIZE_T           8
+                    ^
+    In file included from _mysql.c:44:
+    /usr/local/Cellar/mysql/5.6.10/include/my_config.h:442:9: warning: 'HAVE_WCSCOLL' macro redefined
+    #define HAVE_WCSCOLL
+            ^
+    /usr/local/Cellar/python/2.7.4/Frameworks/Python.framework/Versions/2.7/include/python2.7/pyconfig.h:902:9: note: previous definition is here
+    #define HAVE_WCSCOLL 1
+            ^
+    _mysql.c:1567:10: warning: comparison of unsigned expression < 0 is always false [-Wtautological-compare]
+            if (how < 0 || how >= sizeof(row_converters)) {
+                ~~~ ^ ~
+    3 warnings generated.
+    cc -bundle -undefined dynamic_lookup -L/usr/local/lib -L/usr/local/opt/sqlite/lib build/temp.macosx-10.8-x86_64-2.7/_mysql.o -L/usr/local/Cellar/mysql/5.6.10/lib -lmysqlclient_r -o build/lib.macosx-10.8-x86_64-2.7/_mysql.so
+    
+  Running setup.py install for Werkzeug
+    
+    warning: no files found matching '*' under directory 'werkzeug/debug/templates'
+    warning: no files found matching '*' under directory 'tests'
+    warning: no previously-included files matching '*.pyc' found under directory 'docs'
+    warning: no previously-included files matching '*.pyo' found under directory 'docs'
+    warning: no previously-included files matching '*.pyc' found under directory 'tests'
+    warning: no previously-included files matching '*.pyo' found under directory 'tests'
+    warning: no previously-included files matching '*.pyc' found under directory 'examples'
+    warning: no previously-included files matching '*.pyo' found under directory 'examples'
+    no previously-included directories found matching 'docs/_build'
+  Running setup.py install for Jinja2
+    
+    warning: no files found matching '*' under directory 'custom_fixers'
+    warning: no previously-included files matching '*' found under directory 'docs/_build'
+    warning: no previously-included files matching '*.pyc' found under directory 'jinja2'
+    warning: no previously-included files matching '*.pyc' found under directory 'docs'
+    warning: no previously-included files matching '*.pyo' found under directory 'jinja2'
+    warning: no previously-included files matching '*.pyo' found under directory 'docs'
+  Running setup.py install for itsdangerous
+    
+  Running setup.py install for SQLAlchemy
+    building 'sqlalchemy.cprocessors' extension
+    cc -fno-strict-aliasing -fno-common -dynamic -I/usr/local/include -I/usr/local/opt/sqlite/include -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -I/usr/local/Cellar/python/2.7.4/Frameworks/Python.framework/Versions/2.7/include/python2.7 -c lib/sqlalchemy/cextension/processors.c -o build/temp.macosx-10.8-x86_64-2.7/lib/sqlalchemy/cextension/processors.o
+    cc -bundle -undefined dynamic_lookup -L/usr/local/lib -L/usr/local/opt/sqlite/lib build/temp.macosx-10.8-x86_64-2.7/lib/sqlalchemy/cextension/processors.o -o build/lib.macosx-10.8-x86_64-2.7/sqlalchemy/cprocessors.so
+    building 'sqlalchemy.cresultproxy' extension
+    cc -fno-strict-aliasing -fno-common -dynamic -I/usr/local/include -I/usr/local/opt/sqlite/include -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -I/usr/local/Cellar/python/2.7.4/Frameworks/Python.framework/Versions/2.7/include/python2.7 -c lib/sqlalchemy/cextension/resultproxy.c -o build/temp.macosx-10.8-x86_64-2.7/lib/sqlalchemy/cextension/resultproxy.o
+    cc -bundle -undefined dynamic_lookup -L/usr/local/lib -L/usr/local/opt/sqlite/lib build/temp.macosx-10.8-x86_64-2.7/lib/sqlalchemy/cextension/resultproxy.o -o build/lib.macosx-10.8-x86_64-2.7/sqlalchemy/cresultproxy.so
+    building 'sqlalchemy.cutils' extension
+    cc -fno-strict-aliasing -fno-common -dynamic -I/usr/local/include -I/usr/local/opt/sqlite/include -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -I/usr/local/Cellar/python/2.7.4/Frameworks/Python.framework/Versions/2.7/include/python2.7 -c lib/sqlalchemy/cextension/utils.c -o build/temp.macosx-10.8-x86_64-2.7/lib/sqlalchemy/cextension/utils.o
+    cc -bundle -undefined dynamic_lookup -L/usr/local/lib -L/usr/local/opt/sqlite/lib build/temp.macosx-10.8-x86_64-2.7/lib/sqlalchemy/cextension/utils.o -o build/lib.macosx-10.8-x86_64-2.7/sqlalchemy/cutils.so
+    
+    warning: no files found matching '*.jpg' under directory 'doc'
+    no previously-included directories found matching 'doc/build/output'
+  Running setup.py install for markupsafe
+    
+    building 'markupsafe._speedups' extension
+    cc -fno-strict-aliasing -fno-common -dynamic -I/usr/local/include -I/usr/local/opt/sqlite/include -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -I/usr/local/Cellar/python/2.7.4/Frameworks/Python.framework/Versions/2.7/include/python2.7 -c markupsafe/_speedups.c -o build/temp.macosx-10.8-x86_64-2.7/markupsafe/_speedups.o
+    cc -bundle -undefined dynamic_lookup -L/usr/local/lib -L/usr/local/opt/sqlite/lib build/temp.macosx-10.8-x86_64-2.7/markupsafe/_speedups.o -o build/lib.macosx-10.8-x86_64-2.7/markupsafe/_speedups.so
+Successfully installed Flask Flask-SQLAlchemy MySQL-python Werkzeug Jinja2 itsdangerous SQLAlchemy markupsafe
+Cleaning up...
