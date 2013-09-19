@@ -1,20 +1,21 @@
-from flask.ext.wtf import Form, TextField, PasswordField
-from flask.ext.wtf import Required, EqualTo, validators, Length
+from flask_wtf import Form
+from wtforms import TextField
+from wtforms import PasswordField
+from wtforms.validators import DataRequired, EqualTo, Length
 
 # set your classes here
 
 
-
 class RegisterForm(Form):
-    name        = TextField('Username', validators = [Required(), Length(min=6, max=25)])
-    email       = TextField('Email', validators = [Required(), Length(min=6, max=40)])
-    password    = PasswordField('Password', validators = [Required(), Length(min=6, max=40)])
-    confirm     = PasswordField('Repeat Password', [Required(), EqualTo('password', message='Passwords must match')])
+    name        = TextField('Username', validators = [DataRequired(), Length(min=6, max=25)])
+    email       = TextField('Email', validators = [DataRequired(), Length(min=6, max=40)])
+    password    = PasswordField('Password', validators = [DataRequired(), Length(min=6, max=40)])
+    confirm     = PasswordField('Repeat Password', [DataRequired(), EqualTo('password', message='Passwords must match')])
 
 class LoginForm(Form):
-    name        = TextField('Username', [Required()])
-    passwd      = PasswordField('Password', [Required()])
+    name        = TextField('Username', [DataRequired()])
+    passwd      = PasswordField('Password', [DataRequired()])
 
 
 
-    
+
