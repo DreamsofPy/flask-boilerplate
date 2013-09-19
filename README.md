@@ -83,12 +83,12 @@ Deploying to Heroku
 3. Once installed, open your command-line and run the following command - `heroku login`. Then follow the prompts:
 
         Enter your Heroku credentials.
-        Email: michael@mherman.org
+        Email: your@email.org
         Password (typing will be hidden):
         Could not find an existing public key.
         Would you like to generate one? [Yn]
         Generating new SSH public key.
-        Uploading ssh public key /Users/michaelherman/.ssh/id_rsa.pub
+        Uploading ssh public key /Users/yourusername/.ssh/id_rsa.pub
 
 1. Activate your virtualenv
 2. Heroku recognizes the dependencies needed through a *requirements.txt* file. Create one using the following command: `pip freeze > requirements.txt`. Now, this will only create the dependencies from the libraries you installed using pip. If you used easy_install, you will need to add them directly to the file.
